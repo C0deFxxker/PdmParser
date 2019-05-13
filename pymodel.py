@@ -140,7 +140,6 @@ def __build_init_assign_code(column: Column) -> str:
         content += column.code.lower()
     return content
 
-
 # from pdm_parser import parse_pdm
 #
 # tables = parse_pdm("/Users/liyilin/Workspace/doc/company/AIFactory-train-doc/06 数据模型/deepminer-v2(1).pdm")
